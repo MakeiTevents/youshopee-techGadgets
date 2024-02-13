@@ -733,9 +733,9 @@ button:hover {
 }
 
 .bg-banner-img {
-  background-image: url(../images/youshopee-banner.jpeg);
+  background-image: url(../images/youshopee-banner-4.jpeg);
   background-repeat: no-repeat;
-  /* background-position: center bottom; */
+  background-position: center bottom;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
