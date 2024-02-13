@@ -3514,6 +3514,21 @@ h3.blog-title {
   #about-banner h5 {
     margin-top: 8rem;
   }
+
+  .desktop-view {
+    display: none;
+      }
+      .mobile-view {
+    display: block;
+      }
+}
+@media (min-width: 435px) {
+  .desktop-view {
+    display: block;
+      }
+      .mobile-view {
+    display: none;
+      }
 }
 /*------------------------------------
 26.End Responsive
