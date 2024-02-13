@@ -732,12 +732,8 @@ button:hover {
   height: 100vh;
 }
 
-.about-banner {
-  
-}
-
 .bg-banner-img {
-  /* background-image: url(../images/youshopee-banner.jpeg); */
+  background-image: url(../images/youshopee-banner.jpeg);
   background-repeat: no-repeat;
   /* background-position: center bottom; */
   -webkit-background-size: cover;
@@ -3357,10 +3353,14 @@ h3.blog-title {
     text-align: center;
   }
   p.banner-text.wow.fadeInUp.main-h3 {
-    text-align: center;
+    text-align: left;
   }
   div#banner-text {
-    text-align: center;
+    text-align: left;
+  }
+  #banner-text h5 {
+    text-align: left;
+
   }
   .About-right-bg-img {
     background-image: none;
