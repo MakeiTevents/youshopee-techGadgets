@@ -642,7 +642,7 @@ button:hover {
   background-color: white;
   position: absolute;
   left: 0px;
-  top: 50%;
+  top: 55%;
 }
 .header-menu-icon::before,
 .header-menu-icon::after {
@@ -715,7 +715,7 @@ button:hover {
   }
 
   .header-menu-toggle {
-    top: 24px;
+    top: 52px;
     right: 20px;
   }
 }
