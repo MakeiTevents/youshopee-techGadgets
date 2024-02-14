@@ -661,6 +661,11 @@ button:hover {
   bottom: -9px;
 }
 
+#features {
+  margin-top: -20rem;
+  margin-bottom: 10rem;
+}
+
 /* ------------------------------------------------------------------- 
  * responsive:
  * header
