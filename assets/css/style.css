@@ -106,7 +106,7 @@ This files contents are outlined below.
   -o-transform: skew(-8deg);
 }
 .font_30 {
-  font-size: 30px !important;
+  font-size: 30px;
 }
 .btn-default {
   background: #265db9 !important;
@@ -3494,12 +3494,16 @@ h3.blog-title {
 }
 
 @media (max-width: 435px) {
+  .about_left_text_top h1 {
+    font-size: 25px;
+  } 
   #about-banner {
     height: 300px;
   }
 
-  #about-banner h5 {
+  #about-banner #banner-text h5 {
     margin-top: 8rem;
+    font-size: 25px;
   }
 
   .desktop-view {
