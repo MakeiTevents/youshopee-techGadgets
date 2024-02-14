@@ -931,7 +931,9 @@ img {
   border-radius: 50%;
 }
 .servise-top img {
-  border-radius: 50%;
+  border-radius: 100%;
+  width: 100%;
+  height: 126px;
 }
 .unify {
   font-weight: 700;
