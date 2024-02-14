@@ -666,6 +666,10 @@ button:hover {
   margin-bottom: 10rem;
 }
 
+.who_we_area {
+  margin-bottom: 2rem;
+}
+
 /* ------------------------------------------------------------------- 
  * responsive:
  * header
@@ -3489,7 +3493,7 @@ h3.blog-title {
 
 @media (max-width: 435px) {
   #about-banner {
-    height: 290px;
+    height: 300px;
   }
 
   #about-banner h5 {
@@ -3502,8 +3506,21 @@ h3.blog-title {
       .mobile-view {
     display: block;
       }
-      #banner-text h5 {
-        font-size: 27px;
+      #banner h5 {
+        font-size: 20px;
+      }
+
+      #banner p {
+        font-size: 14px;
+      }
+
+      #features {
+        margin-top: -10rem;
+        /* margin-bottom: 10rem; */
+      }
+
+      #features p {
+        font-size: 12px;
       }
       
 }   
