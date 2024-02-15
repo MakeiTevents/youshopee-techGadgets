@@ -677,7 +677,7 @@ button:hover {
 }
 
 .logo-biss img {
-  width: 80px;
+  width: 130px;
 }
 
 /* ------------------------------------------------------------------- 
@@ -3537,6 +3537,9 @@ h3.blog-title {
 
       #features p {
         font-size: 12px;
+      }
+      #features h2 {
+        font-size: 23px;
       }
       
 }   
