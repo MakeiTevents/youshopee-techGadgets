@@ -673,6 +673,11 @@ button:hover {
 .flags img {
   width: 25px;
   margin-right: 5px;
+  border-radius: 50%;
+}
+
+.logo-biss img {
+  width: 70px;
 }
 
 /* ------------------------------------------------------------------- 
@@ -938,7 +943,7 @@ img {
 .servise-top img {
   border-radius: 100%;
   width: 100%;
-  height: 126px;
+  height: 120px;
 }
 .unify {
   font-weight: 700;
