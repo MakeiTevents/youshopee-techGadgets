@@ -670,6 +670,11 @@ button:hover {
   margin-bottom: 2rem;
 }
 
+.flags img {
+  width: 25px;
+  margin-right: 5px;
+}
+
 /* ------------------------------------------------------------------- 
  * responsive:
  * header
