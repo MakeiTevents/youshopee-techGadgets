@@ -380,7 +380,7 @@ button:hover {
   height: 96px;
   background-color: transparent;
   position: absolute;
-  top: 14px;
+  top: 1%;
 }
 /* -------------------------------------------------------------------
  * ## header logo
@@ -730,7 +730,7 @@ button:hover {
 
   .header-logo {
     left: 25px;
-    top: 60px;
+    top: 0px;
   }
 
   .header-menu-toggle {
