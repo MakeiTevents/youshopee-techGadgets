@@ -46,7 +46,7 @@
                   ================================================== -->
           <header class="s-header">
             <div class="header-logo">
-              <a class="navbar-brand logo-biss" href="index.html"> <img src="assets/images/logo.png">  </a>
+              <a class="navbar-brand logo-biss" href="index.html"> <img src="assets/images/logo1.jpg">  </a>
               <!-- <h2 class="logo" style="color: #f4f4f4">youshopee.com</h2> -->
             </div>
             <!-- end header-logo -->
@@ -215,7 +215,7 @@
           <div class="title wow fadeInUp">
             <h2>Join our global distribution network</h2>
             <!-- <h1>Join our global distribution network</h1> -->
-            <p>
+            <p style="color: black;">
               Hands-on approach and committed to service excellence, <br />
               we strive to build long-term partnerships.
             </p>
@@ -285,7 +285,7 @@
           <div class="who_we_area col-md-4 col-sm-6 col-4pad wow fadeInUp">
             <div class="service-1">
               <div class="servise-top wow fadeInUp">
-                <img src="assets/images/100%.jpg" />
+                <img src="assets/images/100%-2.jpg" />
               </div>
               <h2 class="unify">100% planning reliability</h2>
               <p class="bottom-s">
@@ -335,10 +335,11 @@
                 id="contactForm"
                 method="post"
                 class="contact-form"
-                action="sendemail.php"
+                action="https://api.web3forms.com/submit"
               >
                 <div class="row">
                   <div class="col-md-12">
+                    <input type="hidden" name="access_key" value="a5187993-a0d1-4588-9d1c-26031a753cec">
                     <input
                       type="text"
                       class="medium-input"
@@ -349,16 +350,16 @@
                       name="name"
                     />
                   </div>
-                  <div class="col-xs-12 col-sm-6 col-md-6">
+                  <div class="col-md-12">
                     <input
-                      type="email"
-                      class="medium-input"
-                      maxlength="70"
-                      placeholder="E-mail *"
-                      required="required"
-                      id="email"
-                      name="email"
-                    />
+                    type="email"
+                    class="medium-input"
+                    maxlength="70"
+                    placeholder="E-mail *"
+                    required="required"
+                    id="email"
+                    name="email"
+                  />
                   </div>
                   <div class="col-xs-12 col-sm-6 col-md-6">
                     <input
@@ -368,7 +369,18 @@
                       placeholder="Mobile Number *" 
                       required="required"
                       id="subject"
-                      name="subject"
+                      name="number"
+                    />
+                  </div>
+                  <div class="col-xs-12 col-sm-6 col-md-6">
+                    <input
+                      type="text"
+                      class="medium-input"
+                      maxlength="70"
+                      placeholder="Country Code *" 
+                      required="required"
+                      id="subject"
+                      name="code"
                     />
                   </div>
                   <div class="col-md-12">
@@ -387,19 +399,15 @@
                       class="top-contact wow fadeInRight text-left"
                       style="visibility: visible; animation-name: fadeInRight"
                     >
-                      <a
-                        type="submit"
-                        id="#services"
-                        href="#services"
-                        class="btn btn-primary wow fadeInUp js-scroll-trigger"
-                        data-wow-delay=" 0.5s"
-                        style="
-                          visibility: visible;
-                          animation-delay: 0.5s;
-                          animation-name: fadeInUp;
-                        "
-                        >Send Message</a
-                      >
+                    <button type="submit"
+                    id="#services"
+                    class="btn btn-primary wow fadeInUp js-scroll-trigger"
+                    data-wow-delay=" 0.5s"
+                    style="
+                      visibility: visible;
+                      animation-delay: 0.5s;
+                      animation-name: fadeInUp;
+                    ">Send Message</button>
                     </div>
                   </div>
                 </div>
@@ -611,8 +619,8 @@
                 </li>
                 <li class="footer-left-h">
                   <i class="fa fa-envelope-o"></i>  Email:<br />
-                  <a href="mailto:vaseempm0404@gmail.com">
-                    vaseempm0404@gmail.com
+                  <a href="mailto:info@youshopee.com">
+                    info@youshopee.com
                   </a>
                 </li>
               </ul>
