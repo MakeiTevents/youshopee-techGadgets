@@ -730,7 +730,7 @@ button:hover {
 
   .header-logo {
     left: 25px;
-    top: 0px;
+    top: -10px;
   }
 
   .header-menu-toggle {
