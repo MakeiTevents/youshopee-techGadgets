@@ -462,9 +462,9 @@ button:hover {
 .header-nav p {
   margin-bottom: 2.7rem;
 }
-///////////////////////////////////////////////////////////////
+//////////////////////////////////////////
 
-/* 
+
 .header-nav__content {
   position: relative;
   left: 50px;
@@ -632,7 +632,7 @@ button:hover {
 .header-menu-toggle:focus,
 .header-menu-toggle:active {
   color: #cc147f;
-} */
+}
 
 .header-menu-icon {
   display: block;
