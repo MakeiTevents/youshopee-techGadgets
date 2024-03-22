@@ -112,7 +112,7 @@ This files contents are outlined below.
   background: #265db9 !important;
   background-image: linear-gradient(
     to right top,
-    #bfbfc4,
+    #6871f4,
     #6871f4,
     #6871f48f,
     #265db9,
@@ -380,7 +380,7 @@ button:hover {
   height: 96px;
   background-color: transparent;
   position: absolute;
-  top: 1%;
+  top: 24px;
 }
 /* -------------------------------------------------------------------
  * ## header logo
@@ -392,7 +392,7 @@ button:hover {
   padding: 0;
   position: absolute;
   left: 110px;
-  top: 23%;
+  top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -677,7 +677,7 @@ button:hover {
 }
 
 .logo-biss img {
-  width: 170px;
+  width: 130px;
 }
 
 /* ------------------------------------------------------------------- 
@@ -687,7 +687,6 @@ button:hover {
 @media only screen and (max-width: 1600px) {
   .header-logo {
     left: 60px;
-    
   }
 
   .header-menu-toggle {
@@ -698,7 +697,6 @@ button:hover {
 @media only screen and (max-width: 800px) {
   .header-logo {
     left: 40px;
-    
   }
 
   .header-menu-toggle {
@@ -732,7 +730,7 @@ button:hover {
 
   .header-logo {
     left: 25px;
-    top: 15px;
+    top: 60px;
   }
 
   .header-menu-toggle {
@@ -765,14 +763,14 @@ button:hover {
   max-width: 100%;
   height: 100vh;
 }
-.overlay {
+/* .overlay {
   position: absolute;
   width: 100%;
   height: 100%;
   z-index: 2;
   background-color: #080d15;
   opacity: .7;
-}
+} */
 
 .about-bg-banner-img {
   background: rgba(255, 255, 255, 0);
@@ -897,7 +895,7 @@ img {
 /*--------------------------------------------------*/
 
 .about_left_text {
-  background: #596a94 !important;
+  background: #1c3c8a !important;
   background-image: linear-gradient(
     to right top,
     #255ab6,
@@ -3534,7 +3532,7 @@ h3.blog-title {
 
       #features {
         margin-top: -10rem;
-        margin-bottom: 10rem;
+        /* margin-bottom: 10rem; */
       }
 
       #features p {
